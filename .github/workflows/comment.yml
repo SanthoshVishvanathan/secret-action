@@ -14,3 +14,5 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           GREETING: "Hello to you too! :sparkles::sparkles::sparkles:"
+          GH_TOKEN: ${{ secrets.MY_TOKEN }}
+
